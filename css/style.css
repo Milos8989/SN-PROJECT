@@ -1,0 +1,268 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-bar {
+	background-color: #1e2bc4;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+#logoPic{
+  width: 5%;
+
+}
+
+
+.nav-bar a{
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 4px;
+  padding-right: 3px;
+  margin: 3px;
+  background-color: brown;
+}
+
+.main {
+ 
+	padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#kafana {
+  background: url(kafana.jpg);
+  height: 100vh;
+  background-size:cover;
+}
+
+.container{
+ display: flex;
+ margin-left: 100px;
+}
+.img{
+  width: 240px;
+  height: 400px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 2s;
+}
+.img:hover{
+  background-position: bottom center;
+}
+
+.img1{
+  background-image: url(canary.jpg);
+}
+.img2{
+  background-image: url(i2.png);
+}
+
+/*proces registracije stil*/
+.box{
+  width: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 57%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: right;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 7px 5px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+
+#content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    width: 350px;
+    margin: 10px auto;
+    background-color: #f0f0f7;
+    padding: 10px;
+}
+
+.post a{
+  text-decoration: none;
+}
+
+.typeText {
+    width: 320px;
+    height: 50px;
+}
+.text {
+    padding: 5px;
+}
+
+.logout, .logout:visited {
+    color: white;
+}
+
+/*************************DASHBOARD*********************************/
+.status {
+	margin: 0 auto;
+	width: 25%;
+	border: 1px solid black;
+}
+
+
+.forma {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: 50px 0;
+}
+
+.post {
+	width: 25%;
+	margin: 50px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+.alignLeft {
+	display: flex;
+}
+
+.image {
+	width: 15%;
+	border-radius: 50%;
+}
+#image {
+	width:70%;
+}
+
+#comment input{
+  width: 50%;
+}
+
+.image2{
+  width: 15%;
+  border-radius: 50%;
+}
+
+
+
+
+.message {
+	background: yellow;
+	padding: 10px;
+	font-size: 20px;
+}
+.contact-section{
+  background-image: url(kafana.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+}
+.contact-section span{
+  background-color: #111;
+  color: #ddd;
+}
+.contact-section h1{
+  background-color: #111;
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
